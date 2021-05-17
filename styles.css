@@ -6,7 +6,7 @@
     --main-grey: #8390a2;
 }
 body{
-   position: fixed;
+   position: auto;
 }
 
 * {
@@ -327,10 +327,10 @@ td{
     border-radius: 10px;
 }
 
-
 .table-responsive{
     width: 100%;
     overflow-x: auto;
 
 }
+
 
