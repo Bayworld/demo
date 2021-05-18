@@ -16,11 +16,11 @@ body{
     list-style-type: none;
     text-decoration: none;
     font-family: 'poppins', sans-serif;
-    /* background: black; */
+    float: none;
 }
 
 .sidebar{
-    width: 250px;
+    width: 200px;  /*  subject to change to 250  */
     position: fixed;
     left: 0;
     top: 0;
@@ -77,11 +77,11 @@ body{
 
 
 .main-content{
-    margin-left: 255px;
+    margin-left: 200px;  /* subject to change 255*/
 }
 
 main{
-    margin-left: 200px;
+    margin-left: 150px;  /* subject to change 200*/
     margin-top: 85px;
     padding: 2rem 1.5rem;
     background: #f9f8fe;
@@ -215,7 +215,7 @@ header{
     margin: 1rem;
     padding: 1rem;
     /* background-color: #fff; */
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     align-items: center;
@@ -330,7 +330,17 @@ td{
 .table-responsive{
     width: 100%;
     overflow-x: auto;
+}
 
+.profile{
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+
+.profile img{
+    border: 2px solid transparent;
+    border-radius: 50px;
 }
 
 
